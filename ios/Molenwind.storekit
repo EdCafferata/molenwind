@@ -1,0 +1,59 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "nl_NL",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "6D1B2C3A",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6800000001",
+      "localizations" : [ { "description" : "Even bijkomen op de stelling.", "displayName" : "Kop koffie voor de molenaar", "locale" : "nl" } ],
+      "productID" : "info.cafferata.molenwind.fooi.koffie",
+      "referenceName" : "Fooi koffie",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6800000002",
+      "localizations" : [ { "description" : "Vers van de steen gemalen.", "displayName" : "Zak molenmeel", "locale" : "nl" } ],
+      "productID" : "info.cafferata.molenwind.fooi.meel",
+      "referenceName" : "Fooi meel",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "6800000003",
+      "localizations" : [ { "description" : "Zodat de wieken weer vol in de wind staan.", "displayName" : "Nieuw zeil", "locale" : "nl" } ],
+      "productID" : "info.cafferata.molenwind.fooi.zeil",
+      "referenceName" : "Fooi zeil",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "6800000004",
+      "localizations" : [ { "description" : "Het zware werk. Heel erg bedankt!", "displayName" : "Molensteen", "locale" : "nl" } ],
+      "productID" : "info.cafferata.molenwind.fooi.molensteen",
+      "referenceName" : "Fooi molensteen",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_locale" : "nl",
+    "_storefront" : "NLD",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 4, "minor" : 0 }
+}
