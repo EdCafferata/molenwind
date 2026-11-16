@@ -113,7 +113,7 @@ struct OverView: View {
         }
     }
 
-    private func bron(_ k: String, _ v: String) -> some View {
+    private func bron(_ k: LocalizedStringKey, _ v: LocalizedStringKey) -> some View {
         VStack(alignment: .leading, spacing: 2) {
             Text(k).font(.subheadline.bold())
             Text(v).font(.caption).foregroundStyle(.secondary)

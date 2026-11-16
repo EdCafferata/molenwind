@@ -1,0 +1,40 @@
+{
+  "sourceLanguage": "nl",
+  "version": "1.0",
+  "strings": {
+    "NSLocationWhenInUseUsageDescription": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Molenwind gebruikt je locatie om molens in de buurt te tonen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Molenwind uses your location to show windmills nearby."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Molenwind verwendet deinen Standort, um Mühlen in der Nähe anzuzeigen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Molenwind utilise votre position pour afficher les moulins à proximité."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Molenwind usa tu ubicación para mostrar molinos cercanos."
+          }
+        }
+      }
+    }
+  }
+}

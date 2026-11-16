@@ -31,14 +31,14 @@ final class FooiPot {
     }
 
     static let soorten: [Soort] = [
-        .init(id: "info.cafferata.molenwind.fooi.koffie", titel: "Kop koffie voor de molenaar",
-              uitleg: "Even bijkomen op de stelling.", symbool: "cup.and.saucer.fill"),
-        .init(id: "info.cafferata.molenwind.fooi.meel", titel: "Zak molenmeel",
-              uitleg: "Vers van de steen gemalen.", symbool: "bag.fill"),
-        .init(id: "info.cafferata.molenwind.fooi.zeil", titel: "Nieuw zeil",
-              uitleg: "Zodat de wieken weer vol in de wind staan.", symbool: "sailboat.fill"),
-        .init(id: "info.cafferata.molenwind.fooi.molensteen", titel: "Molensteen",
-              uitleg: "Het zware werk. Heel erg bedankt!", symbool: "circle.circle.fill"),
+        .init(id: "info.cafferata.molenwind.fooi.koffie", titel: String(localized: "Kop koffie voor de molenaar"),
+              uitleg: String(localized: "Even bijkomen op de stelling."), symbool: "cup.and.saucer.fill"),
+        .init(id: "info.cafferata.molenwind.fooi.meel", titel: String(localized: "Zak molenmeel"),
+              uitleg: String(localized: "Vers van de steen gemalen."), symbool: "bag.fill"),
+        .init(id: "info.cafferata.molenwind.fooi.zeil", titel: String(localized: "Nieuw zeil"),
+              uitleg: String(localized: "Zodat de wieken weer vol in de wind staan."), symbool: "sailboat.fill"),
+        .init(id: "info.cafferata.molenwind.fooi.molensteen", titel: String(localized: "Molensteen"),
+              uitleg: String(localized: "Het zware werk. Heel erg bedankt!"), symbool: "circle.circle.fill"),
     ]
 
     static var productIDs: [String] { soorten.map(\.id) }
@@ -67,19 +67,19 @@ final class FooiPot {
             case .success(let resultaat):
                 if case .verified(let transactie) = resultaat {
                     await transactie.finish()
-                    melding = "Dank je wel! Hiermee blijft Molenwind gratis en draaien de molens door. 🌬️"
+                    melding = String(localized: "Dank je wel! Hiermee blijft Molenwind gratis en draaien de molens door. 🌬️")
                 } else {
-                    melding = "De betaling kon niet worden gecontroleerd."
+                    melding = String(localized: "De betaling kon niet worden gecontroleerd.")
                 }
             case .pending:
-                melding = "Je fooi wacht nog op goedkeuring."
+                melding = String(localized: "Je fooi wacht nog op goedkeuring.")
             case .userCancelled:
                 break
             @unknown default:
                 break
             }
         } catch {
-            melding = "Er ging iets mis: \(error.localizedDescription)"
+            melding = String(localized: "Er ging iets mis: \(error.localizedDescription)")
         }
     }
 

@@ -30,8 +30,10 @@ struct MolenKiezer: View {
                         ForEach(inDeBuurt) { rij($0) }
                     }
                 }
-                Section(inDeBuurt.isEmpty ? "" : "Alle molens") {
+                Section {
                     ForEach(resultaten) { rij($0) }
+                } header: {
+                    if !inDeBuurt.isEmpty { Text("Alle molens") }
                 }
             }
             .searchable(text: $zoek, prompt: "Naam of plaats")
@@ -47,7 +49,7 @@ struct MolenKiezer: View {
             HStack {
                 VStack(alignment: .leading) {
                     Text(molen.naam).foregroundStyle(.primary)
-                    Text("\(molen.plaats) · \(molen.functie)").font(.caption).foregroundStyle(.secondary)
+                    Text("\(molen.plaats) · \(molen.functieLokaal)").font(.caption).foregroundStyle(.secondary)
                 }
                 Spacer()
                 if let a = locatie.afstand(tot: molen) {

@@ -84,6 +84,9 @@
 			knownRegions = (
 				nl,
 				en,
+				de,
+				fr,
+				es,
 				Base,
 			);
 			mainGroup = AA0000000000000000000001;
@@ -158,6 +161,7 @@
 				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Molenwind;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Molenwind gebruikt je locatie om molens in de buurt te tonen.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -183,6 +187,7 @@
 				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Molenwind;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Molenwind gebruikt je locatie om molens in de buurt te tonen.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -19,16 +19,29 @@ enum Beaufort {
     private static let grenzen: [Double] = [0.3, 1.6, 3.4, 5.5, 8.0, 10.8, 13.9, 17.2, 20.8, 24.5, 28.5, 32.7]
     static func van(_ ms: Double) -> Int { grenzen.firstIndex { ms < $0 } ?? 12 }
 
-    static let namen = ["windstil", "zwak", "zwak", "matig", "matig", "vrij krachtig", "krachtig",
-                        "hard", "stormachtig", "storm", "zware storm", "zeer zware storm", "orkaan"]
+    static var namen: [String] {
+        [String(localized: "windstil"), String(localized: "zwak"), String(localized: "zwak"),
+         String(localized: "matig"), String(localized: "matig"), String(localized: "vrij krachtig"),
+         String(localized: "krachtig"), String(localized: "hard"), String(localized: "stormachtig"),
+         String(localized: "storm"), String(localized: "zware storm"), String(localized: "zeer zware storm"),
+         String(localized: "orkaan")]
+    }
 }
 
 enum Kompas {
-    static let streken = ["N", "NNO", "NO", "ONO", "O", "OZO", "ZO", "ZZO",
-                          "Z", "ZZW", "ZW", "WZW", "W", "WNW", "NW", "NNW"]
+    /// 16 windstreken per taal (Nederlands is de bron: N, O, Z, W).
+    private static let streken: [String: [String]] = [
+        "nl": ["N", "NNO", "NO", "ONO", "O", "OZO", "ZO", "ZZO", "Z", "ZZW", "ZW", "WZW", "W", "WNW", "NW", "NNW"],
+        "en": ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"],
+        "de": ["N", "NNO", "NO", "ONO", "O", "OSO", "SO", "SSO", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"],
+        "fr": ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSO", "SO", "OSO", "O", "ONO", "NO", "NNO"],
+        "es": ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSO", "SO", "OSO", "O", "ONO", "NO", "NNO"],
+    ]
+
     static func streek(_ graden: Double) -> String {
         let i = Int((graden.truncatingRemainder(dividingBy: 360) + 11.25) / 22.5) % 16
-        return streken[i]
+        let taal = Bundle.main.preferredLocalizations.first.map { String($0.prefix(2)) } ?? "nl"
+        return (streken[taal] ?? streken["en"]!)[i]
     }
     /// Kleinste hoekverschil (0...180) tussen twee richtingen.
     static func verschil(_ a: Double, _ b: Double) -> Double {
@@ -53,10 +66,10 @@ enum Maalweer {
 
     var titel: String {
         switch self {
-        case .teWeinigWind: "Te weinig wind"
-        case .maalweer: "Goed maalweer"
-        case .stevig: "Stevige wind — minder zeil"
-        case .stilzetten: "Te hard — stilzetten"
+        case .teWeinigWind: String(localized: "Te weinig wind")
+        case .maalweer: String(localized: "Goed maalweer")
+        case .stevig: String(localized: "Stevige wind — minder zeil")
+        case .stilzetten: String(localized: "Te hard — stilzetten")
         }
     }
 

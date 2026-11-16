@@ -16,8 +16,16 @@ struct Molen: Identifiable, Decodable, Hashable {
     let foto: String
     let fotograaf: String
     let link: String
+    /// Openingstijden in OSM-notatie (alleen als ze in OpenStreetMap staan).
+    let open: String?
+    /// Eigen website van de molen (uit OpenStreetMap).
+    let web: String?
 
     var coordinate: CLLocationCoordinate2D { .init(latitude: lat, longitude: lon) }
+    var openingstijden: Openingstijden? { open.map(Openingstijden.init) }
+    /// Functie in de taal van het toestel (korenmolen → corn mill, ...).
+    var functieLokaal: String { String(localized: String.LocalizationValue(functie)) }
+    var websiteURL: URL? { web.flatMap(URL.init(string:)) }
     var isWindmolen: Bool { categorie == "windmolen" }
     var fotoURL: URL? { URL(string: foto) }
     var infoURL: URL? { URL(string: link) }

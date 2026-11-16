@@ -181,8 +181,8 @@ struct MolenDetailView: View {
 
                     Grid(alignment: .leading, verticalSpacing: 6) {
                         rij("Type", molen.type)
-                        rij("Functie", molen.functie)
-                        if !molen.bouwjaar.isEmpty { rij("Bouwjaar", molen.bouwjaar) }
+                        rij("Functie", molen.functieLokaal)
+                        if !molen.bouwjaar.isEmpty, molen.bouwjaar != "onbekend" { rij("Bouwjaar", molen.bouwjaar) }
                     }
 
                     if let dag = draaidag {
@@ -192,22 +192,21 @@ struct MolenDetailView: View {
                             .background((dag.goed ? Color.green : Color.gray).opacity(0.15), in: .rect(cornerRadius: 12))
                     }
 
-                    Text("Openingstijden volgen nog (OpenStreetMap). Tip: een blauwe wimpel aan de molen betekent dat de molenaar er is en je meestal binnen mag.")
-                        .font(.callout).foregroundStyle(.secondary)
+                    OpeningstijdenBlok(molen: molen)
 
-                    HStack {
-                        if let url = molen.infoURL {
-                            Link(destination: url) { Label("allemolens.nl", systemImage: "safari") }
-                                .buttonStyle(.bordered)
-                        }
-                        Button { route() } label: { Label("Route", systemImage: "car") }
-                            .buttonStyle(.bordered)
+                    // Naast elkaar als het past, anders onder elkaar (langere vertalingen).
+                    ViewThatFits(in: .horizontal) {
+                        HStack { knoppen }
+                        VStack(alignment: .leading) { knoppen }
                     }
                     Button {
                         store.mijnMolenID = molen.id
                     } label: {
-                        Label(store.mijnMolenID == molen.id ? "Dit is mijn molen" : "Maak dit mijn molen",
-                              systemImage: store.mijnMolenID == molen.id ? "checkmark" : "star")
+                        if store.mijnMolenID == molen.id {
+                            Label("Dit is mijn molen", systemImage: "checkmark")
+                        } else {
+                            Label("Maak dit mijn molen", systemImage: "star")
+                        }
                     }
                     .buttonStyle(.borderedProminent)
                     .disabled(store.mijnMolenID == molen.id)
@@ -239,11 +238,24 @@ struct MolenDetailView: View {
             .prefix(9)
         let goed = overdag.filter { Maalweer.oordeel($0) == .maalweer }.count
         return goed >= 3
-            ? (true, "Goede draaidag: genoeg wind om te malen. Of hij draait, hangt af van de molenaar.")
-            : (false, "Weinig kans dat hij draait: te weinig of te veel wind.")
+            ? (true, String(localized: "Goede draaidag: genoeg wind om te malen. Of hij draait, hangt af van de molenaar."))
+            : (false, String(localized: "Weinig kans dat hij draait: te weinig of te veel wind."))
     }
 
-    private func rij(_ k: String, _ v: String) -> some View {
+    @ViewBuilder private var knoppen: some View {
+        if let url = molen.websiteURL {
+            Link(destination: url) { Label("Website", systemImage: "globe").fixedSize() }
+                .buttonStyle(.bordered)
+        }
+        if let url = molen.infoURL {
+            Link(destination: url) { Label("allemolens.nl", systemImage: "safari").fixedSize() }
+                .buttonStyle(.bordered)
+        }
+        Button { route() } label: { Label("Route", systemImage: "car").fixedSize() }
+            .buttonStyle(.bordered)
+    }
+
+    private func rij(_ k: LocalizedStringKey, _ v: String) -> some View {
         GridRow {
             Text(k).foregroundStyle(.secondary)
             Text(v)
@@ -254,5 +266,41 @@ struct MolenDetailView: View {
         let item = MKMapItem(placemark: MKPlacemark(coordinate: molen.coordinate))
         item.name = molen.naam
         item.openInMaps()
+    }
+}
+
+/// Openingstijden uit OpenStreetMap, met "nu open/gesloten" als de tijden te lezen zijn.
+struct OpeningstijdenBlok: View {
+    let molen: Molen
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack {
+                Label("Openingstijden", systemImage: "clock").font(.headline)
+                Spacer()
+                if let tijden = molen.openingstijden, let open = tijden.isOpen() {
+                    Text(open ? "Nu open" : "Nu gesloten")
+                        .font(.caption.bold())
+                        .padding(.horizontal, 10).padding(.vertical, 4)
+                        .background((open ? Color.green : Color.secondary).opacity(0.25), in: .capsule)
+                }
+            }
+            if let tijden = molen.openingstijden {
+                ForEach(tijden.leesbareRegels(), id: \.self) { Text($0).monospacedDigit() }
+                if let opm = tijden.opmerking {
+                    Text(opm).font(.caption).foregroundStyle(.secondary)
+                }
+                Text("Bron: OpenStreetMap. Controleer bij twijfel de website van de molen.")
+                    .font(.caption2).foregroundStyle(.secondary)
+            } else {
+                Text("Nog onbekend voor deze molen.")
+                    .foregroundStyle(.secondary)
+            }
+            Text("Tip: een blauwe wimpel aan de molen betekent dat de molenaar er is en je meestal binnen mag.")
+                .font(.caption).foregroundStyle(.secondary)
+        }
+        .padding()
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(.thinMaterial, in: .rect(cornerRadius: 12))
     }
 }

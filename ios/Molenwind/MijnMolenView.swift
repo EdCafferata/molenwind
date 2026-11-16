@@ -52,6 +52,8 @@ struct WindPaneel: View {
     @State private var fout: String?
     @State private var laden = false
     @State private var gescrold = false
+    @AppStorage(WindMeldingen.instellingKey) private var meldingenAan = false
+    @State private var meldingGeweigerd = false
 
     var body: some View {
         ScrollViewReader { proxy in
@@ -96,6 +98,34 @@ struct WindPaneel: View {
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .background(.orange.opacity(0.15), in: .rect(cornerRadius: 12))
+                    }
+
+                    Toggle(isOn: $meldingenAan) {
+                        Label {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Meldingen")
+                                Text("Bij windomslag (30 min vooraf) en harde wind (1 uur vooraf)")
+                                    .font(.caption).foregroundStyle(.secondary)
+                            }
+                        } icon: { Image(systemName: "bell.badge.fill").foregroundStyle(.orange) }
+                    }
+                    .padding()
+                    .background(.thinMaterial, in: .rect(cornerRadius: 14))
+                    .onChange(of: meldingenAan) { _, aan in
+                        Task {
+                            if aan, !(await WindMeldingen.vraagToestemming()) {
+                                meldingenAan = false
+                                meldingGeweigerd = true
+                                return
+                            }
+                            await WindMeldingen.plan(molen: molen, nu: nu, verwachting: verwachting)
+                            WindMeldingen.planAchtergrondCheck()
+                        }
+                    }
+                    .alert("Meldingen staan uit", isPresented: $meldingGeweigerd) {
+                        Button("OK", role: .cancel) {}
+                    } message: {
+                        Text("Zet meldingen voor Molenwind aan in Instellingen › Meldingen.")
                     }
 
                     VerwachtingLijst(verwachting: verwachting, huidigeRichting: nu.richting)
@@ -150,6 +180,7 @@ struct WindPaneel: View {
         do {
             let r = try await WindService.haal(lat: molen.lat, lon: molen.lon)
             nu = r.nu; verwachting = r.verwachting; fout = nil
+            await WindMeldingen.plan(molen: molen, nu: r.nu, verwachting: r.verwachting)
             // Tel gebruiksdagen (niet het aantal keer laden); pas na een paar dagen echt gebruik om een review vragen.
             let vandaag = Date().formatted(.iso8601.year().month().day())
             if laatsteGebruiksdag != vandaag {
@@ -161,7 +192,7 @@ struct WindPaneel: View {
                 }
             }
         } catch {
-            fout = "Kon de wind niet ophalen. Trek omlaag om opnieuw te proberen."
+            fout = String(localized: "Kon de wind niet ophalen. Trek omlaag om opnieuw te proberen.")
         }
     }
 }
@@ -181,8 +212,8 @@ struct WindKompas: View {
                     .offset(y: -118)
                     .rotationEffect(.degrees(Double(i) * 22.5))
             }
-            ForEach(Array(["N", "O", "Z", "W"].enumerated()), id: \.offset) { i, s in
-                Text(s).font(.headline)
+            ForEach(0..<4) { i in
+                Text(Kompas.streek(Double(i) * 90)).font(.headline)
                     .offset(y: -96)
                     .rotationEffect(.degrees(Double(i) * 90))
             }
@@ -249,7 +280,7 @@ struct MolenZoomKaart: View {
 }
 
 struct Tegel: View {
-    let titel: String, waarde: String, onder: String
+    let titel: LocalizedStringKey, waarde: String, onder: String
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(titel).font(.caption).foregroundStyle(.secondary)

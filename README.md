@@ -29,11 +29,16 @@ Het idee komt van een gesprek met de molenaar in Ingen: *"wind is het allerbelan
 - Waarschuwing bij een **windomslag** van meer dan 45° in de komende 12 uur ("rond 0:00 draait de wind naar ZZO,
   opnieuw kruien").
 - Verwachting per uur voor de komende 12 uur, en een satellietkaart die op je molen inzoomt, met windpijl.
+- **Meldingen**: bij een windomslag (30 minuten vooraf) en bij harde wind (1 uur vooraf). Dit zijn lokale
+  meldingen; iOS ververst de verwachting af en toe op de achtergrond. Er is geen server nodig.
 
 **Ontdekken**
 - Kaart met alle bestaande windmolens, gegroepeerd per regio; zoomt automatisch in op molens bij jou in de buurt.
 - Molenpagina met foto, type, functie, bouwjaar, "goede draaidag"-indicatie, een link naar allemolens.nl en een
   route.
+- **Openingstijden** uit OpenStreetMap, met "nu open/gesloten", in de taal van de gebruiker. De dekking is nog
+  beperkt (37 molens); vul ze aan in [OpenStreetMap](https://www.openstreetmap.org) (`opening_hours`) en ze komen
+  bij de volgende data-update in de app.
 
 **Over**
 - Vrijwillige fooien in molenstijl (☕ koffie voor de molenaar, 🌾 zak molenmeel, ⛵ nieuw zeil, 🪨 molensteen).
@@ -49,9 +54,14 @@ Het idee komt van een gesprek met de molenaar in Ingen: *"wind is het allerbelan
 | Molens (locatie, naam, type, bouwjaar) | Rijksdienst voor het Cultureel Erfgoed (RCE), Landschapsatlas-WFS `Molens`, gebaseerd op gegevens van Vereniging De Hollandsche Molen | Publiek domein |
 | Foto's | Beeldbank RCE, live geladen (niet in deze repo) | CC-BY-SA, met fotograaf |
 | Wind | KNMI Harmonie (2 km) via [Open-Meteo](https://open-meteo.com) | CC-BY 4.0 |
+| Openingstijden, websites | OpenStreetMap-bijdragers | ODbL |
 | Kaarten | Apple Kaarten | — |
 
 De app gebruikt **geen API-sleutels**, en er staan geen geheimen in deze repo.
+
+## Talen
+Nederlands, Engels, Duits, Frans en Spaans (`ios/Molenwind/Localizable.xcstrings`). Windrichtingen worden per taal
+getoond (ZW → SW → SO). Molentypen uit de dataset (bijv. "stellingmolen") blijven Nederlandse vaktermen.
 
 ## Bouwen
 Vereist Xcode 26 of nieuwer, iOS 18+.
@@ -74,8 +84,7 @@ Op een eigen toestel: zet je eigen `DEVELOPMENT_TEAM` en bundle-ID in Xcode.
 - `screenshots/`: schermafbeeldingen
 
 ## Nog te doen
-Openingstijden (OpenStreetMap), een pushmelding bij windomslag, instelbare drempels per molen, widget en Apple
-Watch, meertaligheid, Android.
+Instelbare drempels per molen, widget en Apple Watch, een molenaarsknop "ik ben er nu" (live open), Android.
 
 ## Licentie
 Code: [MIT](LICENSE). Data: zie de tabel hierboven.
