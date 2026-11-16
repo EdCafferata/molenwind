@@ -9,7 +9,7 @@ Gratis, open-source iPhone-app voor **molenaars** en **molenliefhebbers** in Ned
 - **Ontdekken**, voor toeristen: ruim 1.200 bestaande windmolens op de kaart, met foto, type, bouwjaar en een
   indicatie of het vandaag een goede draaidag is.
 
-Het idee komt van een gesprek met een molenaar: *"wind is het allerbelangrijkste"*.
+Het idee komt van een gesprek met de molenaar in Ingen: *"wind is het allerbelangrijkste"*.
 
 > Status: prototype (november 2026), nog niet in de App Store.
 
@@ -17,7 +17,7 @@ Het idee komt van een gesprek met een molenaar: *"wind is het allerbelangrijkste
 <img src="screenshots/1-mijn-molen-wind.png" width="200" alt="Mijn molen: windkompas">
 <img src="screenshots/6-mijn-molen-zoomkaart.png" width="200" alt="Satellietkaart van de eigen molen">
 <img src="screenshots/2-kaart-clusters.png" width="200" alt="Kaart met molens">
-<img src="screenshots/3-molenpagina.png" width="200" alt="Molenpagina">
+<img src="screenshots/3-molenpagina.png" width="200" alt="Molenpagina: Op Hoop van Beter in Ingen">
 </p>
 
 ## Functies
