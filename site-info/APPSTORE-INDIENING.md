@@ -20,6 +20,8 @@ want daarvoor is Eds akkoord nodig.
 - **Open-Meteo:** het gratis plan staat een fooienpot expliciet toe ("Voluntary donations, including contributions
   through a tip jar, are permitted"). Abonnementen of advertenties zouden commercieel gebruik zijn.
 
+**Bundle-ID geregistreerd** (17 nov, API, resource `FMU4HA4MDD`). Het app-record lukte nog niet, omdat ASC die avond storingen gaf.
+
 ## ⏳ Nog te doen, in deze volgorde (Eds akkoord per stap)
 1. **App-record aanmaken in ASC:** naam "Molenwind" (controleren of de naam vrij is), primaire taal Nederlands,
    bundle `info.cafferata.molenwind`, SKU `molenwind`. Daarna `APP_ID` invullen in
@@ -28,11 +30,14 @@ want daarvoor is Eds akkoord nodig.
    elk met prijs, lokalisatie (5 talen) en een **review-screenshot** van het Over-scherm. Ze moeten **samen met
    versie 1.0** worden ingediend. Bij Alltrexx ging dat mis (409 "no pending version"), omdat de IAP's
    apart werden ingediend.
-3. **App Privacy:** "Data Not Collected". **Leeftijdsclassificatie:** overal "geen", dus 4+.
+3. **China-compliance (nieuw sinds 16 nov 2026):** ASC vraagt bij indiening voor China mainland twee
+   verklaringen: AI-gegenereerde content en Security Assessment. Molenwind heeft geen van beide → beide op **"No"**
+   (een leeg formulier blokkeert de indiening).
+4. **App Privacy:** "Data Not Collected". **Leeftijdsclassificatie:** overal "geen", dus 4+.
    **Prijs:** gratis, alle landen (of alleen NL/BE/DE/FR/ES/VK/VS, naar keuze).
-4. `fastlane beta`: eerste build naar TestFlight. Op Eds iPhone testen of de meldingen echt aankomen (dat is nog niet getest)
+5. `fastlane beta`: eerste build naar TestFlight. Op Eds iPhone testen of de meldingen echt aankomen (dat is nog niet getest)
    en of de fooien laden.
-5. `fastlane metadata`: metadata en screenshots naar ASC.
-6. **Pre-productie-check** draaien (`pre-production-app-review-check`), dan de build en de IAP's koppelen aan
+6. `fastlane metadata`: metadata en screenshots naar ASC.
+7. **Pre-productie-check** draaien (`pre-production-app-review-check`), dan de build en de IAP's koppelen aan
    versie 1.0 → **Indienen** (handmatig vrijgeven na goedkeuring).
-7. Na livegang: de kaart op cafferata.info van "Onderweg" naar "Live" verplaatsen, met een App Store-link. Ook de README-status bijwerken.
+8. Na livegang: de kaart op cafferata.info van "Onderweg" naar "Live" verplaatsen, met een App Store-link. Ook de README-status bijwerken.
