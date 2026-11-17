@@ -1,0 +1,1 @@
+Wind and wind direction at your own windmill, with advice on which way to turn the cap and an alert when the wind shifts. Plus every Dutch windmill on the map.

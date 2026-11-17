@@ -6,6 +6,8 @@
 	<array>
 		<string>info.cafferata.molenwind.windcheck</string>
 	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>

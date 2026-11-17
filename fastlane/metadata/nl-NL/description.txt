@@ -1,0 +1,22 @@
+Molenwind is een gratis app voor molenaars en molenliefhebbers.
+
+MIJN MOLEN, VOOR DE MOLENAAR
+• Kies je eigen molen; met je locatie staan de molens in de buurt bovenaan.
+• Windkompas: waar de wind vandaan komt en waarheen je kruit.
+• Windkracht in Beaufort en m/s, windstoten apart, en een maalweer-oordeel: te weinig wind, goed maalweer, stevig of stilzetten.
+• Waarschuwing bij een windomslag van meer dan 45° in de komende 12 uur.
+• Verwachting per uur en een satellietkaart die op je molen inzoomt, met windpijl.
+• Meldingen bij windomslag (30 minuten vooraf) en bij harde wind (1 uur vooraf).
+
+ONTDEKKEN, VOOR IEDEREEN
+• Ruim 1.200 Nederlandse molens op de kaart, gegroepeerd per regio.
+• Molenpagina met foto, type, functie, bouwjaar en een indicatie of het een goede draaidag is.
+• Openingstijden met "nu open" waar die bekend zijn, plus een route en een link naar allemolens.nl.
+
+PRIVACY
+Geen account, geen advertenties, geen tracking. Je locatie blijft op je telefoon.
+
+OPEN SOURCE
+De broncode staat op GitHub (EdCafferata/molenwind). Alle functies zijn gratis. Wie wil, kan in de app een vrijwillige fooi geven.
+
+Bronnen: molengegevens van de Rijksdienst voor het Cultureel Erfgoed, openingstijden van OpenStreetMap, weerdata van Open-Meteo.

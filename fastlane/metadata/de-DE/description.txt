@@ -1,0 +1,22 @@
+Molenwind ist eine kostenlose App für Müller und Mühlenfreunde in den Niederlanden.
+
+MEINE MÜHLE, FÜR DEN MÜLLER
+• Wähle deine eigene Mühle; mit deinem Standort stehen Mühlen in der Nähe oben.
+• Windkompass: woher der Wind kommt und wohin du die Kappe drehst.
+• Windstärke in Beaufort und m/s, Böen separat, und eine Einschätzung des Mahlwetters: zu wenig Wind, gutes Mahlwetter, kräftig oder anhalten.
+• Warnung, wenn der Wind in den nächsten 12 Stunden um mehr als 45° dreht.
+• Stündliche Vorhersage und eine Satellitenkarte, die auf deine Mühle zoomt, mit Windpfeil.
+• Benachrichtigungen bei Winddrehung (30 Minuten vorher) und bei starkem Wind (1 Stunde vorher).
+
+ENTDECKEN, FÜR ALLE
+• Über 1.200 niederländische Mühlen auf der Karte, nach Region gruppiert.
+• Mühlenseite mit Foto, Typ, Funktion, Baujahr und ob heute ein guter Drehtag ist.
+• Öffnungszeiten mit „jetzt geöffnet“, wo bekannt, dazu Route und Link zu allemolens.nl.
+
+DATENSCHUTZ
+Kein Konto, keine Werbung, kein Tracking. Dein Standort bleibt auf deinem Telefon.
+
+OPEN SOURCE
+Der Quellcode liegt auf GitHub (EdCafferata/molenwind). Alle Funktionen sind kostenlos. Wer möchte, kann in der App ein freiwilliges Trinkgeld geben.
+
+Quellen: Mühlendaten der niederländischen Denkmalbehörde (RCE), Öffnungszeiten von OpenStreetMap, Wetterdaten von Open-Meteo.

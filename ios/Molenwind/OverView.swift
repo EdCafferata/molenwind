@@ -95,6 +95,7 @@ struct OverView: View {
                     bron("Molens", "Rijksdienst voor het Cultureel Erfgoed, gebaseerd op gegevens van De Hollandsche Molen (publiek domein)")
                     bron("Foto's", "Beeldbank RCE, CC-BY-SA; fotograaf staat bij elke foto")
                     bron("Wind", "KNMI Harmonie via Open-Meteo, CC-BY 4.0")
+                    bron("Openingstijden", "© OpenStreetMap-bijdragers, ODbL")
                     bron("Kaarten", "Apple Kaarten")
                 }
 

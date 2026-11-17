@@ -1,0 +1,22 @@
+Molenwind is a free app for windmill millers and windmill lovers in the Netherlands.
+
+MY MILL, FOR THE MILLER
+• Pick your own windmill; with your location, nearby mills are listed first.
+• Wind compass: where the wind comes from and which way to turn the cap.
+• Wind force in Beaufort and m/s, gusts shown separately, and a milling verdict: too little wind, good milling weather, strong or stop.
+• Warning when the wind is set to shift by more than 45° in the next 12 hours.
+• Hourly forecast and a satellite map zoomed in on your mill, with a wind arrow.
+• Notifications for a wind shift (30 minutes ahead) and for strong wind (1 hour ahead).
+
+DISCOVER, FOR EVERYONE
+• More than 1,200 Dutch windmills on the map, grouped by region.
+• Mill page with photo, type, purpose, year built and whether it is a good day for turning.
+• Opening hours with "open now" where known, plus directions and a link to allemolens.nl.
+
+PRIVACY
+No account, no ads, no tracking. Your location stays on your phone.
+
+OPEN SOURCE
+The source code is on GitHub (EdCafferata/molenwind). All features are free. If you like, you can leave an optional tip in the app.
+
+Sources: windmill data from the Dutch Cultural Heritage Agency (RCE), opening hours from OpenStreetMap, weather data from Open-Meteo.

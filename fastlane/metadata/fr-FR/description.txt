@@ -1,0 +1,22 @@
+Molenwind est une application gratuite pour les meuniers et les amoureux des moulins aux Pays-Bas.
+
+MON MOULIN, POUR LE MEUNIER
+• Choisissez votre moulin ; avec votre position, les moulins proches apparaissent en premier.
+• Boussole du vent : d’où vient le vent et vers où orienter le moulin.
+• Force du vent en Beaufort et en m/s, rafales à part, et un avis sur la mouture : trop peu de vent, bon temps pour moudre, fort ou à arrêter.
+• Alerte quand le vent va tourner de plus de 45° dans les 12 prochaines heures.
+• Prévision heure par heure et carte satellite centrée sur votre moulin, avec flèche du vent.
+• Notifications en cas de changement de vent (30 minutes avant) et de vent fort (1 heure avant).
+
+DÉCOUVRIR, POUR TOUS
+• Plus de 1 200 moulins néerlandais sur la carte, regroupés par région.
+• Fiche du moulin avec photo, type, fonction, année de construction et indication d’une bonne journée pour tourner.
+• Horaires d’ouverture avec « ouvert maintenant » quand ils sont connus, itinéraire et lien vers allemolens.nl.
+
+CONFIDENTIALITÉ
+Pas de compte, pas de publicité, pas de suivi. Votre position reste sur votre téléphone.
+
+OPEN SOURCE
+Le code source est sur GitHub (EdCafferata/molenwind). Toutes les fonctions sont gratuites. Si vous le souhaitez, vous pouvez laisser un pourboire facultatif dans l’app.
+
+Sources : données des moulins de l’Agence néerlandaise du patrimoine culturel (RCE), horaires d’OpenStreetMap, météo d’Open-Meteo.

@@ -1,0 +1,56 @@
+default_platform(:ios)
+
+# Molenwind — App Store-flow (zelfde opzet als Duski).
+# Sleutels staan lokaal in ~/.appstoreconnect/private_keys/ en komen NOOIT in deze (openbare) repo.
+KEY_DIR = "#{Dir.home}/.appstoreconnect/private_keys"
+ISSUER  = "69a6de7f-a9c3-47e3-e053-5b8c7c11a4d1"
+
+API_KEY_PARAMS = {
+  key_id:       "G389F99P3B",
+  issuer_id:    ISSUER,
+  key_filepath: "#{KEY_DIR}/AuthKey_G389F99P3B.p8"
+}
+
+PROJECT     = "ios/Molenwind.xcodeproj"
+SCHEME      = "Molenwind"
+SCREENSHOTS = "fastlane/screenshots"
+
+platform :ios do
+  def api_key = app_store_connect_api_key(**API_KEY_PARAMS)
+
+  def build
+    build_app(
+      project:       PROJECT,
+      scheme:        SCHEME,
+      configuration: "Release",
+      export_method: "app-store",
+      output_directory: "build",
+      xcargs: "-allowProvisioningUpdates " \
+              "-authenticationKeyPath #{KEY_DIR}/AuthKey_5R3497VHF5.p8 " \
+              "-authenticationKeyID 5R3497VHF5 " \
+              "-authenticationKeyIssuerID #{ISSUER}",
+      export_options: { signingStyle: "automatic", teamID: "9J2S23WJH3" }
+    )
+  end
+
+  desc "Build (nieuw buildnummer) en upload naar TestFlight"
+  lane :beta do
+    increment_build_number(xcodeproj: PROJECT, build_number: Time.now.strftime("%Y%m%d%H%M"))
+    build
+    upload_to_testflight(api_key: api_key, skip_waiting_for_build_processing: true)
+  end
+
+  desc "Alleen metadata + screenshots naar App Store Connect (geen build, niet indienen)"
+  lane :metadata do
+    upload_to_app_store(
+      api_key:                    api_key,
+      skip_binary_upload:         true,
+      force:                      true,
+      overwrite_screenshots:      true,
+      screenshots_path:           SCREENSHOTS,
+      metadata_path:              "fastlane/metadata",
+      submit_for_review:          false,
+      run_precheck_before_submit: false
+    )
+  end
+end
