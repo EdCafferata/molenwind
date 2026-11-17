@@ -1,5 +1,7 @@
 # Molenwind 🌬️
 
+🔒 Laatste security check: 2026-11-17 08:44 CET
+
 <img src="design/molenwind-logo-1024.png" width="120" align="right" alt="Molenwind-logo">
 
 Gratis, open-source iPhone-app voor **molenaars** en **molenliefhebbers** in Nederland.
