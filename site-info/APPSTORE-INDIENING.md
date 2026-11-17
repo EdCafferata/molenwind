@@ -45,7 +45,7 @@ Review-screenshot: het Over-scherm met prijzen van Eds iPhone (sandbox), geschaa
    (een leeg formulier blokkeert de indiening).
 4. ✅ (17 nov: App Privacy gepubliceerd door Ed; leeftijd alles "geen"; gratis in alle 175 landen; content rights = gebruikt content van derden (RCE-foto's, OSM); handmatig vrijgeven) **App Privacy:** "Data Not Collected". **Leeftijdsclassificatie:** overal "geen", dus 4+.
    **Prijs:** gratis, alle landen (of alleen NL/BE/DE/FR/ES/VK/VS, naar keuze).
-5. `fastlane beta`: eerste build naar TestFlight. Op Eds iPhone testen of de meldingen echt aankomen (dat is nog niet getest)
+5. 🟡 (17 nov 23:28: build 202611172327 geüpload, VALID in ASC; testen op Eds iPhone nog open) `fastlane beta`: eerste build naar TestFlight. Op Eds iPhone testen of de meldingen echt aankomen (dat is nog niet getest)
    en of de fooien laden.
 6. ✅ (17 nov 23:14, 57 velden + 20 screenshots geverifieerd via API; review-contact incl. telefoon staat in ASC, telefoon bewust niet in deze openbare repo) `fastlane metadata`: metadata en screenshots naar ASC.
 7. **Pre-productie-check** draaien (`pre-production-app-review-check`), dan de build en de IAP's koppelen aan
