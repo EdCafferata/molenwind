@@ -32,7 +32,11 @@ ES-beschrijving van zeil ingekort tot 45 tekens: "Para que las aspas cojan todo 
 Review-screenshot: het Over-scherm met prijzen van Eds iPhone (sandbox), geschaald naar 1290×2796, want ASC weigert
 1284×2778 met IMAGE_INCORRECT_DIMENSIONS. Alle 4 staan op **READY_TO_SUBMIT**. Indienen samen met versie 1.0.
 
-## ⏳ Nog te doen, in deze volgorde (Eds akkoord per stap)
+## 📤 Ingediend 17 nov 2026 (23:34)
+App-id **6836030027**. Versie 1.0 (build 202611172327, VALID) + 4 fooi-IAP's (koffie/meel/zeil/molensteen, consumable) samen in één reviewSubmission → `WAITING_FOR_REVIEW`.
+Nog na goedkeuring: `APP_ID = 6836030027` in `gen_molenwind.py` → site opnieuw genereren/deployen (App Store-knop), homepage-kaart naar § Live, README-status.
+
+## ⏳ Oorspronkelijk stappenplan (Eds akkoord per stap)
 1. ~~**App-record aanmaken in ASC:**~~ ✅ klaar (App ID 6836030027). naam "Molenwind" (controleren of de naam vrij is), primaire taal Nederlands,
    bundle `info.cafferata.molenwind`, SKU `molenwind`. Daarna `APP_ID` invullen in
    `oc-consent/site-info/generators/gen_molenwind.py`, de site opnieuw genereren en deployen.
