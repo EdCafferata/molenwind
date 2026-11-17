@@ -8,7 +8,7 @@ op één plek en versiebeheerd. Conventie voor alle EdCafferata-app-repo's (map 
 |---|---|
 | Naam | Molenwind |
 | Bundle-ID | `info.cafferata.molenwind` |
-| Apple App ID | _nog niet aangemaakt_ |
+| Apple App ID | 6836030027 (aangemaakt 17 nov 2026) |
 | Team | 9J2S23WJH3 (The IT Crowd) |
 | Platform | iPhone (iOS 18+), portret |
 | Prijs | Gratis; 4 vrijwillige fooi-IAP's (`info.cafferata.molenwind.fooi.{koffie,meel,zeil,molensteen}`, nog aan te maken in ASC) |

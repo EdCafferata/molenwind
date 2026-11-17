@@ -20,13 +20,24 @@ want daarvoor is Eds akkoord nodig.
 - **Open-Meteo:** het gratis plan staat een fooienpot expliciet toe ("Voluntary donations, including contributions
   through a tip jar, are permitted"). Abonnementen of advertenties zouden commercieel gebruik zijn.
 
-**Bundle-ID geregistreerd** (17 nov, API, resource `FMU4HA4MDD`). Het app-record lukte nog niet, omdat ASC die avond storingen gaf.
+**Bundle-ID geregistreerd** (17 nov, API, resource `FMU4HA4MDD`).
+
+**✅ Stap 1 klaar (17 nov 2026, ~22:30):** app-record "Molenwind" aangemaakt in ASC, **Apple App ID `6836030027`**
+(nl-NL, SKU `molenwind`, alle gebruikers hebben toegang). `APP_ID` staat in `gen_molenwind.py`, site opnieuw gedeployd.
+
+**🟡 Stap 2 grotendeels klaar (17 nov 2026):** 4 consumable fooi-IAP's aangemaakt via de API, elk met prijs (basis NLD,
+overige landen automatisch), beschikbaar in alle 175 landen + nieuwe landen, en lokalisaties nl-NL/en-US/de-DE/fr-FR/es-ES:
+koffie € 0,99 (`6836030846`), meel € 2,99 (`6836030776`), zeil € 4,99 (`6836031153`), molensteen € 9,99 (`6836031368`).
+ES-beschrijving van zeil ingekort tot 45 tekens: "Para que las aspas cojan todo el viento."
+**Nog open:** review-screenshot per IAP. Een simulatorlaunch via `simctl` gebruikt de StoreKit-config niet, dus het
+Over-scherm toont "binnenkort" in plaats van prijzen. Maak de screenshot via Xcode Run (Debug-scheme met StoreKit-config)
+of op de TestFlight-build, en upload hem per IAP.
 
 ## ⏳ Nog te doen, in deze volgorde (Eds akkoord per stap)
-1. **App-record aanmaken in ASC:** naam "Molenwind" (controleren of de naam vrij is), primaire taal Nederlands,
+1. ~~**App-record aanmaken in ASC:**~~ ✅ klaar (App ID 6836030027). naam "Molenwind" (controleren of de naam vrij is), primaire taal Nederlands,
    bundle `info.cafferata.molenwind`, SKU `molenwind`. Daarna `APP_ID` invullen in
    `oc-consent/site-info/generators/gen_molenwind.py`, de site opnieuw genereren en deployen.
-2. **4 fooi-IAP's aanmaken** (consumable): `info.cafferata.molenwind.fooi.koffie`, `.meel`, `.zeil`, `.molensteen`,
+2. 🟡 **4 fooi-IAP's aanmaken** (aangemaakt, alleen de review-screenshot ontbreekt nog) (consumable): `info.cafferata.molenwind.fooi.koffie`, `.meel`, `.zeil`, `.molensteen`,
    elk met prijs, lokalisatie (5 talen) en een **review-screenshot** van het Over-scherm. Ze moeten **samen met
    versie 1.0** worden ingediend. Bij Alltrexx ging dat mis (409 "no pending version"), omdat de IAP's
    apart werden ingediend.
