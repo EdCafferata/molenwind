@@ -23,4 +23,5 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 - Provinciale molenstichtingen/-federaties (Gelderland, Utrecht, Zuid-Holland, Noord-Holland, Friesland, Groningen, Brabant, Limburg …)
 - Molentoerisme: Nationaal Gedistilleerd Museum, VVV's in molenregio's, Nationale Molendag-organisatie
 - Allemolens.nl niet apart (= De Hollandsche Molen). Molenaar Ingen: niet mailen, die kent Ed persoonlijk.
-- Erfgoed in Groningen (groninger molens): info@erfgoedingroningen.nl op groningermolens.nl/contact — volgende run
+- Erfgoed in Groningen (groninger molens): 19 nov 23:2x geen e-mailadres zichtbaar op groningermolens.nl/contact of erfgoedingroningen.nl/contact (mogelijk JS) → handmatig checken of overslaan
+- De Fryske Mole (defryskemole.nl/contact): alleen contactformulier, geen adres → niet mailen (formulier invullen = Ed)
