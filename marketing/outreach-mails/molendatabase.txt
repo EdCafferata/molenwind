@@ -1,0 +1,23 @@
+Beste redactie van de Nederlandse Molendatabase,
+
+Graag laat ik jullie kennismaken met Molenwind, een nieuwe gratis iPhone-app voor molenaars en molenliefhebbers die sinds deze week in de App Store staat. Als liefhebbers van molengegevens vinden jullie het misschien leuk om te zien: ruim 1.200 bestaande windmolens op de kaart, plus voor molenaars de wind op hun eigen molen.
+
+Molenwind is gratis en open source (geen account, geen advertenties; alleen vrijwillige fooien):
+- App Store: https://apps.apple.com/nl/app/molenwind/id6836030027
+- Website: https://cafferata.info/molenwind/
+
+Wat de app doet:
+- Mijn molen: wind en windrichting op precies jouw molen (KNMI Harmonie, 2 km), kruiadvies, windstoten, een maalweer-oordeel en een melding als de wind gaat draaien of hard gaat waaien.
+- Ontdekken: ruim 1.200 bestaande windmolens op de kaart, met foto (RCE), type, bouwjaar, openingstijden (waar bekend) en een link naar allemolens.nl.
+
+Het idee kwam uit een gesprek met de molenaar in Ingen: "wind is het allerbelangrijkste". De windinformatie is uitdrukkelijk een hulpmiddel; de molenaar beslist altijd zelf.
+
+Een korte vraag erbij: gebruiken jullie (of jullie leden/molenaars) vooral iPhone of Android? Molenwind is er nu alleen voor iPhone, en we willen graag weten of een Android-versie de moeite waard is.
+
+Feedback of ideeën zijn van harte welkom; gewoon antwoorden op deze mail.
+
+Met vriendelijke groet,
+
+Ed Cafferata
+The IT Crowd, maker van Molenwind
+https://cafferata.info/molenwind/
