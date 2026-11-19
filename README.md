@@ -13,7 +13,8 @@ Gratis, open-source iPhone-app voor **molenaars** en **molenliefhebbers** in Ned
 
 Het idee komt van een gesprek met de molenaar in Ingen: *"wind is het allerbelangrijkste"*.
 
-> Status: prototype (november 2026), nog niet in de App Store.
+> Status: **v1.0 live in de App Store** sinds 18 november 2026 —
+> [Molenwind in de App Store](https://apps.apple.com/nl/app/molenwind/id6836030027) · [website](https://cafferata.info/molenwind/)
 
 <p>
 <img src="screenshots/1-mijn-molen-wind.png" width="200" alt="Mijn molen: windkompas">
