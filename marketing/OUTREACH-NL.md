@@ -16,8 +16,11 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 | 2026-11-19 | Ambachtelijk Korenmolenaars Gilde | secretaris@korenmolenaarsgilde.nl (ambachtelijkkorenmolenaarsgilde.nl/contact) | verstuurd | – |
 | 2026-11-19 | De Zaansche Molen (Zaanse Schans) | info@zaanschemolen.nl (zaanschemolen.nl/contact) | verstuurd | – |
 | 2026-11-19 | Nederlandse Molendatabase | info@molendatabase.nl (molendatabase.nl, redactie-link) | verstuurd | – |
+| 2026-11-19 | Kinderdijk (UNESCO) | info@kinderdijk.nl (kinderdijk.nl/contact) | verstuurd | – |
+| 2026-11-19 | De Schiedamse Molens | info@deschiedamsemolens.nl (deschiedamsemolens.nl/contact) | verstuurd | – |
 
 ## Volgende kandidaten (eerst contactpagina live checken)
 - Provinciale molenstichtingen/-federaties (Gelderland, Utrecht, Zuid-Holland, Noord-Holland, Friesland, Groningen, Brabant, Limburg …)
-- Molentoerisme: Kinderdijk (UNESCO), Molens van Schiedam / Nationaal Gedistilleerd Museum, VVV's in molenregio's, Nationale Molendag-organisatie
+- Molentoerisme: Nationaal Gedistilleerd Museum, VVV's in molenregio's, Nationale Molendag-organisatie
 - Allemolens.nl niet apart (= De Hollandsche Molen). Molenaar Ingen: niet mailen, die kent Ed persoonlijk.
+- Erfgoed in Groningen (groninger molens): info@erfgoedingroningen.nl op groningermolens.nl/contact — volgende run
