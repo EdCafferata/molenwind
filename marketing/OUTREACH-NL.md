@@ -31,11 +31,22 @@ Gevonden via IG-zoek (molenaar / molens nederland / korenmolen). Elk account liv
 
 | Datum | Account | Wie | Status | Android? |
 |---|---|---|---|---|
-| 2026-11-20 | @mandie.noorlander (1,0K) | molenaar, molenaarsfamilie Noorlander (Cabauw/Kinderdijk; BinnensteBuiten okt 2026) | verstuurd 21:3x | – |
-| 2026-11-20 | @mevrouwdemolenaar (6,0K) | molenaars + zuurdesembakkerij, Witmarsum (Fr) | verstuurd 21:3x | – |
-| 2026-11-20 | @rijnlandsemolenstichting (1,1K) | stichting, 53 poldermolens (43 hulpgemaal) | klaargezet — Ed verstuurt | – |
+| 2026-11-20 | @mandie.noorlander (1,0K) | molenaar, molenaarsfamilie Noorlander (Cabauw/Kinderdijk; BinnensteBuiten okt 2026) | verstuurd 21:3x (door Ed) | – |
+| 2026-11-20 | @mevrouwdemolenaar (6,0K) | molenaars + zuurdesembakkerij, Witmarsum (Fr) | verstuurd 21:3x (door Ed) | – |
+| 2026-11-20 | @rijnlandsemolenstichting (1,1K) | stichting, 53 poldermolens (43 hulpgemaal) | verstuurd 21:4x | – |
 
 Nog niet benaderd (IG, actief): molendehommel, dehaveltermolen, molenlandzigt, stichting_molen_kortenoord, meerburgermolen, natuurvoedingmolendelelie, deheldersemolen. Overgeslagen: dezaanschemolen + molens.nl (al gemaild).
+
+### Toeristen-focus (Ed, 20 nov 2026): grote vakantie-organisaties + NL-reisinfluencers
+Pitch: kaart met 1.200+ molens, dichtstbijzijnde molens, openingsinfo en route erheen; Engels (app in 5 talen); "verder dan Kinderdijk en Zaanse Schans".
+
+| Datum | Account | Wie | Status |
+|---|---|---|---|
+| 2026-11-20 | @visitnetherlands (177K) | NBTC, officieel NL-toerisme (highlights Slowlands / Rural Country) | klaargezet — Ed verstuurt + gevolgd |
+| 2026-11-20 | @thisdutchietravels (134K) | Maire, Dutch Travel Tips, Amsterdam (collab-mail in bio) | klaargezet — Ed verstuurt + gevolgd |
+| 2026-11-20 | @netherlandstravelers (560K) | community-/repostaccount (First timers, What to do) | klaargezet — Ed verstuurt + gevolgd |
+
+Volgende kandidaten (live gezien 20 nov): @anwb (82K), @iamsterdam (349K, alleen A'dam), @puuravontuur (Marsha Brouwer, 65K, NL-avontuur/natuur), @yournetherlands (19K), @wonderful_holland (15K), @netherlands (55K), @zaanseschans (20K), @kinderdijk_official, @rpphermans (11K). Ook per mail: NBTC/holland.com, ANWB, VVV's in molenregio's.
 
 **Android-tally:** 1 antwoord → AKG: meerderheid van ~70 leden Android.
 
