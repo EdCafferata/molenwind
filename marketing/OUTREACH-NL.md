@@ -26,6 +26,17 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 | 2026-11-20 | Het Drentse Landschap (beheert 11 molens o.a. De Arend, Jan Pol, Woldzigt) | info@drentslandschap.nl (drentslandschap.nl/contact) | verstuurd | – |
 | 2026-11-20 | It Fryske Gea (beheert o.a. Molen De Gooijer; categorie "Molens" op de site) | info@itfryskegea.nl (itfryskegea.nl/over-ons/contact) | verstuurd | – |
 
+## Instagram-DM's (vanaf ed_cafferata; Claude typt, Ed verstuurt)
+Gevonden via IG-zoek (molenaar / molens nederland / korenmolen). Elk account live gecheckt en gevolgd. Link: App Store `apps.apple.com/nl/app/molenwind/id6836030027`; elke DM vraagt iPhone of Android.
+
+| Datum | Account | Wie | Status | Android? |
+|---|---|---|---|---|
+| 2026-11-20 | @mandie.noorlander (1,0K) | molenaar, molenaarsfamilie Noorlander (Cabauw/Kinderdijk; BinnensteBuiten okt 2026) | verstuurd 21:3x | – |
+| 2026-11-20 | @mevrouwdemolenaar (6,0K) | molenaars + zuurdesembakkerij, Witmarsum (Fr) | verstuurd 21:3x | – |
+| 2026-11-20 | @rijnlandsemolenstichting (1,1K) | stichting, 53 poldermolens (43 hulpgemaal) | klaargezet — Ed verstuurt | – |
+
+Nog niet benaderd (IG, actief): molendehommel, dehaveltermolen, molenlandzigt, stichting_molen_kortenoord, meerburgermolen, natuurvoedingmolendelelie, deheldersemolen. Overgeslagen: dezaanschemolen + molens.nl (al gemaild).
+
 **Android-tally:** 1 antwoord → AKG: meerderheid van ~70 leden Android.
 
 ## Volgende kandidaten (eerst contactpagina live checken)
