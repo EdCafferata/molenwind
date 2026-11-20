@@ -42,9 +42,9 @@ Pitch: kaart met 1.200+ molens, dichtstbijzijnde molens, openingsinfo en route e
 
 | Datum | Account | Wie | Status |
 |---|---|---|---|
-| 2026-11-20 | @visitnetherlands (177K) | NBTC, officieel NL-toerisme (highlights Slowlands / Rural Country) | klaargezet — Ed verstuurt + gevolgd |
-| 2026-11-20 | @thisdutchietravels (134K) | Maire, Dutch Travel Tips, Amsterdam (collab-mail in bio) | klaargezet — Ed verstuurt + gevolgd |
-| 2026-11-20 | @netherlandstravelers (560K) | community-/repostaccount (First timers, What to do) | klaargezet — Ed verstuurt + gevolgd |
+| 2026-11-20 | @visitnetherlands (177K) | NBTC, officieel NL-toerisme (highlights Slowlands / Rural Country) | verstuurd 20 nov (door Ed) + gevolgd |
+| 2026-11-20 | @thisdutchietravels (134K) | Maire, Dutch Travel Tips, Amsterdam (collab-mail in bio) | verstuurd 20 nov (door Ed) + gevolgd |
+| 2026-11-20 | @netherlandstravelers (560K) | community-/repostaccount (First timers, What to do) | verstuurd 20 nov (door Ed) + gevolgd |
 
 Volgende kandidaten (live gezien 20 nov): @anwb (82K), @iamsterdam (349K, alleen A'dam), @puuravontuur (Marsha Brouwer, 65K, NL-avontuur/natuur), @yournetherlands (19K), @wonderful_holland (15K), @netherlands (55K), @zaanseschans (20K), @kinderdijk_official, @rpphermans (11K). Ook per mail: NBTC/holland.com, ANWB, VVV's in molenregio's.
 
