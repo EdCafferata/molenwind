@@ -35,5 +35,6 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 - Erfgoed in Groningen (groninger molens): 19 nov 23:2x geen e-mailadres zichtbaar op groningermolens.nl/contact of erfgoedingroningen.nl/contact (mogelijk JS) → handmatig checken of overslaan
 - Noord-Hollandse Molenfederatie / Molenfederatie Gelderland: 20 nov geen eigen site/adres gevonden via zoeken → later opnieuw
 - Limburgse Molenstichting (limburgsemolenstichting.nl): 20 nov geen e-mailadres op de pagina (mogelijk JS) → handmatig checken
-- Gevonden 20 nov 14:1x, nog niet gemaild: Landschap Noord-Holland (info@landschapnoordholland.nl — eerst checken of ze molens beheren), Brabants Landschap (info@brabantslandschap.nl — 20 nov 15:2x zoeken op "molen" gaf alleen windturbine-nieuws, geen eigen molens → overslaan tenzij molenbezit blijkt)
+- Landschap Noord-Holland (info@landschapnoordholland.nl): 20 nov 16:2x gecheckt — geen molenbezit op de site gevonden → overslaan tenzij molenbezit blijkt
+- Gevonden 20 nov 14:1x, nog niet gemaild: Brabants Landschap (info@brabantslandschap.nl — 20 nov 15:2x zoeken op "molen" gaf alleen windturbine-nieuws, geen eigen molens → overslaan tenzij molenbezit blijkt)
 - De Fryske Mole (defryskemole.nl/contact): alleen contactformulier, geen adres → niet mailen (formulier invullen = Ed)
