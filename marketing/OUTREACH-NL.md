@@ -24,6 +24,7 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 | 2026-11-20 | Vereniging De Zeeuwse Molen (Goes; 77 Zeeuwse molens) | info@zeeuwsemolens.nl (zeeuwsemolens.nl/contact) | verstuurd | – |
 | 2026-11-20 | Landschap Overijssel (beheert o.a. molen Frans, Mander) | info@landschapoverijssel.nl (landschapoverijssel.nl/contact) | verstuurd | – |
 | 2026-11-20 | Het Drentse Landschap (beheert 11 molens o.a. De Arend, Jan Pol, Woldzigt) | info@drentslandschap.nl (drentslandschap.nl/contact) | verstuurd | – |
+| 2026-11-20 | It Fryske Gea (beheert o.a. Molen De Gooijer; categorie "Molens" op de site) | info@itfryskegea.nl (itfryskegea.nl/over-ons/contact) | verstuurd | – |
 
 **Android-tally:** 1 antwoord → AKG: meerderheid van ~70 leden Android.
 
@@ -34,5 +35,5 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 - Erfgoed in Groningen (groninger molens): 19 nov 23:2x geen e-mailadres zichtbaar op groningermolens.nl/contact of erfgoedingroningen.nl/contact (mogelijk JS) → handmatig checken of overslaan
 - Noord-Hollandse Molenfederatie / Molenfederatie Gelderland: 20 nov geen eigen site/adres gevonden via zoeken → later opnieuw
 - Limburgse Molenstichting (limburgsemolenstichting.nl): 20 nov geen e-mailadres op de pagina (mogelijk JS) → handmatig checken
-- Gevonden 20 nov 14:1x, nog niet gemaild: Landschap Noord-Holland (info@landschapnoordholland.nl — eerst checken of ze molens beheren), It Fryske Gea (info@itfryskegea.nl), Brabants Landschap (info@brabantslandschap.nl)
+- Gevonden 20 nov 14:1x, nog niet gemaild: Landschap Noord-Holland (info@landschapnoordholland.nl — eerst checken of ze molens beheren), Brabants Landschap (info@brabantslandschap.nl — 20 nov 15:2x zoeken op "molen" gaf alleen windturbine-nieuws, geen eigen molens → overslaan tenzij molenbezit blijkt)
 - De Fryske Mole (defryskemole.nl/contact): alleen contactformulier, geen adres → niet mailen (formulier invullen = Ed)
