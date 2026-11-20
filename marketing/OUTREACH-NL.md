@@ -22,6 +22,7 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 | 2026-11-20 | Het Utrechts Landschap (Stichting De Utrechtse Molens) | info@utrechtslandschap.nl (utrechtslandschap.nl/over-ons/contact) | verstuurd | – |
 | 2026-11-20 | Molenstichting voor het Gelders Rivierengebied (Beesd; molens Deil/Hellouw/Zuilichem e.a., niet Ingen) | info@molensrivierengebied.nl (molensrivierengebied.nl/contact) | verstuurd | – |
 | 2026-11-20 | Vereniging De Zeeuwse Molen (Goes; 77 Zeeuwse molens) | info@zeeuwsemolens.nl (zeeuwsemolens.nl/contact) | verstuurd | – |
+| 2026-11-20 | Landschap Overijssel (beheert o.a. molen Frans, Mander) | info@landschapoverijssel.nl (landschapoverijssel.nl/contact) | verstuurd | – |
 
 **Android-tally:** 1 antwoord → AKG: meerderheid van ~70 leden Android.
 

@@ -1,0 +1,21 @@
+Beste medewerkers van Landschap Overijssel,
+
+Graag laat ik u kennismaken met Molenwind, een nieuwe gratis iPhone-app die sinds deze week in de App Store staat. Voor molenaars die op windkracht draaien laat de app per molen zien hoe de wind de komende 12 uur staat (KNMI Harmonie, 2 km), met kruiadvies, windstoten, een maalweer-oordeel en een melding bij windomslag of harde wind. Misschien is dat nuttig voor de (vrijwillige) molenaars op de molens die Landschap Overijssel beheert, zoals molen Frans in Mander.
+
+Daarnaast bevat de app een molenkaart van Nederland: ruim 1.200 bestaande windmolens met foto (RCE), type, bouwjaar, openingstijden (waar bekend) en een link naar allemolens.nl. Zo vinden bezoekers ook de molens in Overijssel makkelijk.
+
+Molenwind is gratis en open source (geen account, geen advertenties; alleen vrijwillige fooien):
+- App Store: https://apps.apple.com/nl/app/molenwind/id6836030027
+- Website: https://cafferata.info/molenwind/
+
+Het idee kwam uit een gesprek met een molenaar in de Betuwe: "wind is het allerbelangrijkste". De windinformatie is uitdrukkelijk een hulpmiddel; de molenaar beslist altijd zelf.
+
+Een korte vraag erbij: gebruiken uw molenaars vooral iPhone of Android? Molenwind is er nu alleen voor iPhone, en we willen graag weten of een Android-versie de moeite waard is.
+
+Feedback of ideeën zijn van harte welkom; gewoon antwoorden op deze mail. Zou u dit eventueel willen doorsturen naar de molenaars van uw molens?
+
+Met vriendelijke groet,
+
+Ed Cafferata
+The IT Crowd, maker van Molenwind
+https://cafferata.info/molenwind/
