@@ -13,13 +13,15 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 |---|---|---|---|---|
 | 2026-11-19 | De Hollandsche Molen | dhm@molens.nl (molens.nl/contact) | verstuurd | – |
 | 2026-11-19 | Gilde van Molenaars | secretariaat@gildevanmolenaars.nl (gildevanmolenaars.nl/contact) | verstuurd | – |
-| 2026-11-19 | Ambachtelijk Korenmolenaars Gilde | secretaris@korenmolenaarsgilde.nl (ambachtelijkkorenmolenaarsgilde.nl/contact) | verstuurd | – |
+| 2026-11-19 | Ambachtelijk Korenmolenaars Gilde | secretaris@korenmolenaarsgilde.nl (ambachtelijkkorenmolenaarsgilde.nl/contact) | **beantwoord 20 nov** (Rolf Wassens, secr., via info@): zet het in de nieuwsbrief (~70 leden); bedankje teruggestuurd | **ja — "de meesten Android"** (secr. zelf iPhone) |
 | 2026-11-19 | De Zaansche Molen (Zaanse Schans) | info@zaanschemolen.nl (zaanschemolen.nl/contact) | verstuurd | – |
 | 2026-11-19 | Nederlandse Molendatabase | info@molendatabase.nl (molendatabase.nl, redactie-link) | verstuurd | – |
 | 2026-11-19 | Kinderdijk (UNESCO) | info@kinderdijk.nl (kinderdijk.nl/contact) | verstuurd | – |
 | 2026-11-19 | De Schiedamse Molens | info@deschiedamsemolens.nl (deschiedamsemolens.nl/contact) | verstuurd | – |
 | 2026-11-20 | Erfgoedhuis Zuid-Holland (Molennetwerk ZH) | info@erfgoedhuis-zh.nl (erfgoedhuis-zh.nl/contact) | verstuurd | – |
 | 2026-11-20 | Het Utrechts Landschap (Stichting De Utrechtse Molens) | info@utrechtslandschap.nl (utrechtslandschap.nl/over-ons/contact) | verstuurd | – |
+
+**Android-tally:** 1 antwoord → AKG: meerderheid van ~70 leden Android.
 
 ## Volgende kandidaten (eerst contactpagina live checken)
 - Provinciale molenstichtingen/-federaties (Gelderland, Noord-Holland, Friesland, Groningen, Brabant, Limburg …)
