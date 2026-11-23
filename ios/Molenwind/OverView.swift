@@ -92,10 +92,14 @@ struct OverView: View {
                 }
 
                 Section("Bronnen") {
-                    bron("Molens", "Rijksdienst voor het Cultureel Erfgoed, gebaseerd op gegevens van De Hollandsche Molen (publiek domein)")
-                    bron("Foto's", "Beeldbank RCE, CC-BY-SA; fotograaf staat bij elke foto")
-                    bron("Wind", "KNMI Harmonie via Open-Meteo, CC-BY 4.0")
-                    bron("Openingstijden", "© OpenStreetMap-bijdragers, ODbL")
+                    bron("Molens", "Rijksdienst voor het Cultureel Erfgoed, gebaseerd op gegevens van De Hollandsche Molen (publiek domein)",
+                         links: ["https://www.cultureelerfgoed.nl", "https://www.molens.nl"])
+                    bron("Foto's", "Beeldbank RCE, CC-BY-SA; fotograaf staat bij elke foto",
+                         links: ["https://beeldbank.cultureelerfgoed.nl", "https://creativecommons.org/licenses/by-sa/4.0/"])
+                    bron("Wind", "KNMI Harmonie via Open-Meteo, CC-BY 4.0",
+                         links: ["https://open-meteo.com", "https://www.knmi.nl"])
+                    bron("Openingstijden", "© OpenStreetMap-bijdragers, ODbL",
+                         links: ["https://www.openstreetmap.org/copyright"])
                     bron("Kaarten", "Apple Kaarten")
                 }
 
@@ -114,10 +118,36 @@ struct OverView: View {
         }
     }
 
-    private func bron(_ k: LocalizedStringKey, _ v: LocalizedStringKey) -> some View {
+    /// Bronregel; `links` worden klikbare domeinnamen (openen in Safari, issue #1).
+    private func bron(_ k: LocalizedStringKey, _ v: LocalizedStringKey, links: [String] = []) -> some View {
         VStack(alignment: .leading, spacing: 2) {
             Text(k).font(.subheadline.bold())
             Text(v).font(.caption).foregroundStyle(.secondary)
+            ForEach(links, id: \.self) { s in
+                if let url = URL(string: s) { BronLink(url: url) }
+            }
         }
+    }
+}
+
+/// Klikbare bron: toont host + pad zonder "https://www." (bv. "openstreetmap.org/copyright").
+struct BronLink: View {
+    let url: URL
+    var body: some View {
+        Link(destination: url) {
+            Label {
+                Text(verbatim: weergave)
+            } icon: {
+                Image(systemName: "arrow.up.right.square")
+            }
+            .font(.caption)
+        }
+        .buttonStyle(.borderless)
+    }
+    private var weergave: String {
+        var s = (url.host() ?? url.absoluteString).replacingOccurrences(of: "www.", with: "")
+        let pad = url.path().trimmingCharacters(in: CharacterSet(charactersIn: "/"))
+        if !pad.isEmpty { s += "/" + pad }
+        return s
     }
 }

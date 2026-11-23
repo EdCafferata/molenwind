@@ -292,6 +292,7 @@ struct OpeningstijdenBlok: View {
                 }
                 Text("Bron: OpenStreetMap. Controleer bij twijfel de website van de molen.")
                     .font(.caption2).foregroundStyle(.secondary)
+                BronLink(url: URL(string: "https://www.openstreetmap.org/copyright")!)
             } else {
                 Text("Nog onbekend voor deze molen.")
                     .foregroundStyle(.secondary)
