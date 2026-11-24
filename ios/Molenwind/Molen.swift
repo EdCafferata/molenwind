@@ -20,6 +20,8 @@ struct Molen: Identifiable, Decodable, Hashable {
     let open: String?
     /// Eigen website van de molen (uit OpenStreetMap).
     let web: String?
+    /// OpenStreetMap-object van de molen ("node/123"), om tijden te bekijken of te verbeteren.
+    let osm: String?
 
     var coordinate: CLLocationCoordinate2D { .init(latitude: lat, longitude: lon) }
     var openingstijden: Openingstijden? { open.map(Openingstijden.init) }
@@ -29,6 +31,7 @@ struct Molen: Identifiable, Decodable, Hashable {
     var isWindmolen: Bool { categorie == "windmolen" }
     var fotoURL: URL? { URL(string: foto) }
     var infoURL: URL? { URL(string: link) }
+    var osmURL: URL? { osm.flatMap { URL(string: "https://www.openstreetmap.org/\($0)") } }
 }
 
 @Observable

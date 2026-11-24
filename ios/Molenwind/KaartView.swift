@@ -297,6 +297,10 @@ struct OpeningstijdenBlok: View {
                 Text("Nog onbekend voor deze molen.")
                     .foregroundStyle(.secondary)
             }
+            // Bekijk/verbeter deze molen op OpenStreetMap (linktekst = domein + pad, dus niet vertaald).
+            if let osmURL = molen.osmURL {
+                BronLink(url: osmURL)
+            }
             Text("Tip: een blauwe wimpel aan de molen betekent dat de molenaar er is en je meestal binnen mag.")
                 .font(.caption).foregroundStyle(.secondary)
         }
