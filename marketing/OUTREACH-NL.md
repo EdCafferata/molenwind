@@ -21,7 +21,7 @@ Mails: `marketing/outreach-mails/<slug>.txt`
 | 2026-11-20 | Erfgoedhuis Zuid-Holland (Molennetwerk ZH) | info@erfgoedhuis-zh.nl (erfgoedhuis-zh.nl/contact) | verstuurd | – |
 | 2026-11-20 | Het Utrechts Landschap (Stichting De Utrechtse Molens) | info@utrechtslandschap.nl (utrechtslandschap.nl/over-ons/contact) | verstuurd | – |
 | 2026-11-20 | Molenstichting voor het Gelders Rivierengebied (Beesd; molens Deil/Hellouw/Zuilichem e.a., niet Ingen) | info@molensrivierengebied.nl (molensrivierengebied.nl/contact) | verstuurd | – |
-| 2026-11-20 | Vereniging De Zeeuwse Molen (Goes; 77 Zeeuwse molens) | info@zeeuwsemolens.nl (zeeuwsemolens.nl/contact) | verstuurd | – |
+| 2026-11-20 | Vereniging De Zeeuwse Molen (Goes; 77 Zeeuwse molens) | info@zeeuwsemolens.nl (zeeuwsemolens.nl/contact) | **beantwoord 25 nov** (Jasper Boonman, secr.): doorgestuurd naar Gilde-bestuur (contacten met molenaars), feedback + OS-info volgt; gaat zelf downloaden voor De Koornbloem (Goes), gebruikt ook Smartmolen.com; bedankje teruggestuurd | nog niet (volgt via Gilde) |
 | 2026-11-20 | Landschap Overijssel (beheert o.a. molen Frans, Mander) | info@landschapoverijssel.nl (landschapoverijssel.nl/contact) | verstuurd | – |
 | 2026-11-20 | Het Drentse Landschap (beheert 11 molens o.a. De Arend, Jan Pol, Woldzigt) | info@drentslandschap.nl (drentslandschap.nl/contact) | verstuurd | – |
 | 2026-11-20 | It Fryske Gea (beheert o.a. Molen De Gooijer; categorie "Molens" op de site) | info@itfryskegea.nl (itfryskegea.nl/over-ons/contact) | verstuurd | – |
@@ -34,8 +34,10 @@ Gevonden via IG-zoek (molenaar / molens nederland / korenmolen). Elk account liv
 | 2026-11-20 | @mandie.noorlander (1,0K) | molenaar, molenaarsfamilie Noorlander (Cabauw/Kinderdijk; BinnensteBuiten okt 2026) | verstuurd 21:3x (door Ed) | – |
 | 2026-11-20 | @mevrouwdemolenaar (6,0K) | molenaars + zuurdesembakkerij, Witmarsum (Fr) | verstuurd 21:3x (door Ed) | – |
 | 2026-11-20 | @rijnlandsemolenstichting (1,1K) | stichting, 53 poldermolens (43 hulpgemaal) | verstuurd 21:4x | – |
+| 2026-11-21 | @dehaveltermolen (504) | Havelter Molen, maalvaardige korenmolen (rijksmonument), Havelte (Dr), elke za-middag open | verstuurd (door Ed) + gevolgd | – |
+| 2026-11-21 | @deheldersemolen (398) | De Goede Verwachting, Den Helder; genomineerd Molenprijs 2026 | verstuurd (door Ed) + gevolgd | – |
 
-Nog niet benaderd (IG, actief): molendehommel, dehaveltermolen, molenlandzigt, stichting_molen_kortenoord, meerburgermolen, natuurvoedingmolendelelie, deheldersemolen. Overgeslagen: dezaanschemolen + molens.nl (al gemaild).
+Nog niet benaderd (IG, actief): molenlandzigt (357, winkel + korenmolen Zuid-Beijerland), stichting_molen_kortenoord, meerburgermolen, natuurvoedingmolendelelie. molendehommel (164): geen DM-knop → overslaan. Overgeslagen: dezaanschemolen + molens.nl (al gemaild).
 
 ### Toeristen-focus (Ed, 20 nov 2026): grote vakantie-organisaties + NL-reisinfluencers
 Pitch: kaart met 1.200+ molens, dichtstbijzijnde molens, openingsinfo en route erheen; Engels (app in 5 talen); "verder dan Kinderdijk en Zaanse Schans".
@@ -45,8 +47,14 @@ Pitch: kaart met 1.200+ molens, dichtstbijzijnde molens, openingsinfo en route e
 | 2026-11-20 | @visitnetherlands (177K) | NBTC, officieel NL-toerisme (highlights Slowlands / Rural Country) | verstuurd 20 nov (door Ed) + gevolgd |
 | 2026-11-20 | @thisdutchietravels (134K) | Maire, Dutch Travel Tips, Amsterdam (collab-mail in bio) | verstuurd 20 nov (door Ed) + gevolgd |
 | 2026-11-20 | @netherlandstravelers (560K) | community-/repostaccount (First timers, What to do) | verstuurd 20 nov (door Ed) + gevolgd |
+| 2026-11-21 | @yournetherlands (18,9K) | Netherlands • Holland • Travel (events/lifestyle/spots; "collabs: DM") | verstuurd 21 nov (door Ed) + gevolgd |
+| 2026-11-21 | @puuravontuur (65,1K ✓) | Marsha Brouwer, buitenleven & avontuurlijk reizen, vanuit Drenthe | verstuurd 21 nov (door Ed) + gevolgd |
+| 2026-11-21 | @anwb (82,1K ✓) | ANWB, "voor de voortbewegers" (feed nu vooral auto/energie) | verstuurd 21 nov (door Ed; DM NL, dagje uit / tip voor leden) + gevolgd |
+| 2026-11-22 | @zaanseschans (19,5K) | officieel account De Zaanse Schans (erfgoeddorp; SinterSchans 15 nov–4 dec) | verstuurd 22 nov (door Ed; DM NL) + gevolgd. Let op: ander org dan De Zaansche Molen (gemaild) |
+| 2026-11-22 | @kinderdijk_official (10,3K) | Kinderdijk UNESCO (19 molens; gratis toegang 5 dec, verjaardag) | verstuurd 22 nov (door Ed; DM NL, noemt eerdere mail) + gevolgd |
+| 2026-11-22 | @molenmuseumdevalk (1,3K) | Molenmuseum De Valk, Leiden (stellingkorenmolen 1743, 7 verdiepingen) | verstuurd 22 nov (door Ed; DM NL, molenaarsversie + iPhone/Android-vraag) + gevolgd |
 
-Volgende kandidaten (live gezien 20 nov): @anwb (82K), @iamsterdam (349K, alleen A'dam), @puuravontuur (Marsha Brouwer, 65K, NL-avontuur/natuur), @yournetherlands (19K), @wonderful_holland (15K), @netherlands (55K), @zaanseschans (20K), @kinderdijk_official, @rpphermans (11K). Ook per mail: NBTC/holland.com, ANWB, VVV's in molenregio's.
+Volgende kandidaten (live gezien 20 nov): @iamsterdam (349K, alleen A'dam), @wonderful_holland (15K, geen DM-knop → alleen via tag/mail). 22 nov afgevallen: @netherlands (= overheid/handel, geen toerisme), @rpphermans (vooral Azië, volgt 2,3K). Nieuw gezien 22 nov (IG-zoek 'molen museum' + suggesties): molenmuseumtezevenhuizen, museummolen_de_walvisch, middelstemolen (papierfabriek-museum), exploring.dutch…, this.is.holland, visitbrabant, regio.arnhem. Ook per mail: NBTC/holland.com, ANWB, VVV's in molenregio's.
 
 **Android-tally:** 1 antwoord → AKG: meerderheid van ~70 leden Android.
 
